@@ -374,5 +374,25 @@
   "ps5upload_v6.5.1.elf": {
     "download_count": 6915,
     "deleted_at": "2026-10-10"
+  },
+  "CheatRunner_v0.17.2.elf": {
+    "download_count": 22804,
+    "deleted_at": "2026-10-11"
+  },
+  "PKG-Manager_v1.5.0.elf": {
+    "download_count": 11595,
+    "deleted_at": "2026-10-11"
+  },
+  "ps-patch-system_37549880588.elf": {
+    "download_count": 2415,
+    "deleted_at": "2026-10-11"
+  },
+  "ps5upload_v6.7.3.elf": {
+    "download_count": 6244,
+    "deleted_at": "2026-10-11"
+  },
+  "ShadowMountPlus_1.7beta3.elf": {
+    "download_count": 54850,
+    "deleted_at": "2026-10-11"
   }
 }
