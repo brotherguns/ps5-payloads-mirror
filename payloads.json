@@ -1,6 +1,5 @@
 {
   "name": "PS5 Payloads",
-  "icons_url": "icons.json",
   "payloads": [
     {
       "name": "ps5upload",
