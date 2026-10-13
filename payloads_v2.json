@@ -3,6 +3,19 @@
   "icons_url": "icons.json",
   "payloads": [
     {
+      "name": "pldmgr",
+      "filename": "pldmgr_v0.6.0.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.0.elf",
+      "source": "https://github.com/itsPLK/pldmgr/releases",
+      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.6.0/pldmgr_v0.6.0.elf",
+      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
+      "last_update": "2026-10-13",
+      "version": "v0.6.0",
+      "category": "Utilities & Tools",
+      "checksum": "5b31079d81d6467f2754edd1d6dbe63b0306502e135c21a425ecb263e39e2059",
+      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346"
+    },
+    {
       "name": "ps5upload",
       "filename": "ps5upload_v7.0.22.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.22.elf",
@@ -120,19 +133,6 @@
       "category": "Networking & Servers",
       "checksum": "fc59b60aab2dce9a8bae385c106bfa174048d765c826101355f1f010a789b497",
       "icon_key": "bd943d614d5d000c34a8bd4e1c00df0bbb9881907accaabe58aab384711abb6c"
-    },
-    {
-      "name": "pldmgr",
-      "filename": "pldmgr_v0.5.2.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.5.2.elf",
-      "source": "https://github.com/itsPLK/pldmgr/releases",
-      "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.5.2/pldmgr_v0.5.2.elf",
-      "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-      "last_update": "2026-09-29",
-      "version": "v0.5.2",
-      "category": "Utilities & Tools",
-      "checksum": "62b3ba2a4937c2afc502f9a4e7242cca538610ebb4ae2800c7c6f72e7f268e7c",
-      "icon_key": "450a56e0558f8df054e4b51487e370a87e88e139b354d435c64bb4eeaf593346"
     },
     {
       "name": "ps5debug-NG",
