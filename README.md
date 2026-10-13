@@ -38,3 +38,13 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 ## Support & Suggestions
 
 If you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/itsPLK/ps5-payloads-mirror/issues/new).
+
+## Catalog icons
+
+`payloads.json` contains a `payloads` array and `icons_url: "icons.json"`.
+Payloads reference an `icon_key`; `icons.json` maps those keys to base64 PNG,
+JPEG or SVG data URIs under its `icons` object. Keys are content hashes, so
+identical images share one entry. Images stay below 12,288 characters and remain
+compatible with PS5 WebKit. `set_icon.py` and `add_payload.py` publish the image
+data before saving the catalog reference. Updating payload releases preserves
+these references. Payload Manager caches icon catalogs separately for seven days.

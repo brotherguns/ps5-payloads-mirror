@@ -1,3 +1,4 @@
+from catalog import save_catalog
 import json
 import subprocess
 import re
@@ -81,7 +82,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "last_update", "version", "category", "checksum", "icon"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "last_update", "version", "category", "checksum", "icon_key"]
     new_item = {}
     for key in order:
         if key in item:
@@ -94,7 +95,7 @@ def reorder_item(item):
 def update_readme():
     try:
         with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)
+            payloads = json.load(f)["payloads"]
     except FileNotFoundError:
         print(f"Error: {JSON_FILE} not found. Cannot update README.")
         return
@@ -178,7 +179,7 @@ def cleanup_and_record_stats():
     
     try:
         with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)
+            payloads = json.load(f)["payloads"]
         expected_files = {p["filename"] for p in payloads if "filename" in p}
         
         cmd = ["gh", "api", f"repos/{owner}/{repo}/releases/tags/payloads-mirror"]
@@ -235,7 +236,7 @@ def update_payloads(target_name=None):
     os.makedirs(PAYLOADS_DIR, exist_ok=True)
     try:
         with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)
+            payloads = json.load(f)["payloads"]
     except FileNotFoundError:
         print(f"Error: {JSON_FILE} not found.")
         return
@@ -455,8 +456,7 @@ def update_payloads(target_name=None):
     payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
     payloads = [reorder_item(p) for p in payloads]
     
-    with open(JSON_FILE, "w") as f:
-        json.dump(payloads, f, indent=2)
+    save_catalog(payloads)
     
     if updated:
         print(f"\nSuccessfully updated files and sorted {JSON_FILE}")

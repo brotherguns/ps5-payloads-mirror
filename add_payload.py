@@ -1,3 +1,4 @@
+from catalog import save_catalog, assign_icon
 import json
 import subprocess
 import re
@@ -56,7 +57,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "last_update", "version", "category", "checksum", "icon"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "last_update", "version", "category", "checksum", "icon_key"]
     new_item = {}
     for key in order:
         if key in item:
@@ -93,7 +94,7 @@ def add_payload():
 
     try:
         with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)
+            payloads = json.load(f)["payloads"]
     except FileNotFoundError:
         payloads = []
 
@@ -238,14 +239,13 @@ def add_payload():
         if extract_file:
             new_item["extract_file"] = extract_file
         if icon_data_uri:
-            new_item["icon"] = icon_data_uri
+            assign_icon(new_item, icon_data_uri)
         
         payloads.append(new_item)
         payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
         payloads = [reorder_item(p) for p in payloads]
         
-        with open(JSON_FILE, "w") as f:
-            json.dump(payloads, f, indent=2)
+        save_catalog(payloads)
             
         print(f"\nSuccessfully added and downloaded {repo} to {JSON_FILE}")
         update_readme()

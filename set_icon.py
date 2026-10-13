@@ -1,3 +1,4 @@
+from catalog import save_catalog, assign_icon, payload_icon
 import json
 import os
 import sys
@@ -13,13 +14,12 @@ def load_payloads():
         print(f"Error: {JSON_FILE} not found.")
         sys.exit(1)
     with open(JSON_FILE, "r") as f:
-        return json.load(f)
+        return json.load(f)["payloads"]
 
 def save_payloads(payloads):
     from add_payload import reorder_item
     payloads = [reorder_item(p) for p in payloads]
-    with open(JSON_FILE, "w") as f:
-        json.dump(payloads, f, indent=2)
+    save_catalog(payloads)
 
 def list_payloads(payloads):
     print("\n" + "=" * 70)
@@ -28,7 +28,7 @@ def list_payloads(payloads):
     for i, p in enumerate(payloads, 1):
         name = p.get("name", "Unknown")
         version = p.get("version", "")
-        icon = p.get("icon")
+        icon = payload_icon(p)
         if icon:
             fmt = icon.split(";")[0].replace("data:image/", "")
             status = f"✓ {fmt} ({len(icon)} chars)"
@@ -92,8 +92,8 @@ def set_payload_icon(payload_identifier, icon_source=None, remove=False):
     name = payload.get("name")
 
     if remove:
-        if "icon" in payload:
-            del payload["icon"]
+        if "icon_key" in payload:
+            del payload["icon_key"]
             save_payloads(payloads)
             print(f"✓ Removed icon from '{name}'.")
         else:
@@ -107,7 +107,7 @@ def set_payload_icon(payload_identifier, icon_source=None, remove=False):
     print(f"Processing icon for '{name}' from: {icon_source}...")
     try:
         data_uri = convert_image_to_data_uri(icon_source)
-        payload["icon"] = data_uri
+        assign_icon(payload, data_uri)
         save_payloads(payloads)
         fmt = data_uri.split(";")[0].replace("data:image/", "")
         print(f"✓ Successfully set icon for '{name}' ({fmt}, {len(data_uri)} chars).")
@@ -130,7 +130,7 @@ def interactive_mode():
         return
 
     name = payload.get("name")
-    current_icon = payload.get("icon")
+    current_icon = payload_icon(payload)
     print(f"\nSelected: {name}")
     if current_icon:
         print(f"Current icon: {current_icon[:30]}... ({len(current_icon)} chars)")
@@ -161,7 +161,7 @@ def interactive_mode():
         set_payload_icon(name, icon_source=action)
 
 def main():
-    parser = argparse.ArgumentParser(description="Manage payload icons in payloads.json")
+    parser = argparse.ArgumentParser(description="Manage payload icons in icons.json")
     parser.add_argument("payload", nargs="?", help="Payload name or number")
     parser.add_argument("icon_source", nargs="?", help="Image URL, local path, or @username")
     parser.add_argument("-r", "--remove", action="store_true", help="Remove icon from the payload")
