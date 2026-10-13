@@ -7,6 +7,7 @@ import tempfile
 from pathlib import Path
 
 CATALOG = Path('payloads.json')
+CATALOG_V2 = Path('payloads_v2.json')
 ICONS = Path('icons.json')
 
 def atomic_json(path, value):
@@ -21,8 +22,23 @@ def atomic_json(path, value):
         if os.path.exists(temporary):
             os.unlink(temporary)
 
+def load_catalog():
+    target = CATALOG if CATALOG.exists() else CATALOG_V2
+    if not target.exists():
+        return []
+    with open(target, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    if isinstance(data, dict):
+        return data.get('payloads', [])
+    return data
+
 def save_catalog(payloads):
-    atomic_json(CATALOG, {'name': 'PS5 Payloads', 'icons_url': 'icons.json', 'payloads': payloads})
+    atomic_json(CATALOG, payloads)
+    atomic_json(CATALOG_V2, {
+        'name': 'PS5 Payloads',
+        'icons_url': 'icons.json',
+        'payloads': payloads,
+    })
 
 def load_icons():
     if not ICONS.exists():

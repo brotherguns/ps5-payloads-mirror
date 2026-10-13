@@ -1,4 +1,4 @@
-from catalog import save_catalog, assign_icon
+from catalog import save_catalog, assign_icon, load_catalog
 import json
 import subprocess
 import re
@@ -92,11 +92,7 @@ def add_payload():
         except Exception as e:
             print(f"  Warning: Failed to process icon ({e}). Skipping icon.")
 
-    try:
-        with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)["payloads"]
-    except FileNotFoundError:
-        payloads = []
+    payloads = load_catalog()
 
     existing_categories = sorted(list(set(p.get("category", "Uncategorized") for p in payloads if "category" in p and p.get("category") != "Uncategorized")))
     if not existing_categories:

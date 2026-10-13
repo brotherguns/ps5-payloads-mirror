@@ -1,4 +1,4 @@
-from catalog import save_catalog, assign_icon, payload_icon
+from catalog import save_catalog, assign_icon, payload_icon, load_catalog
 import json
 import os
 import sys
@@ -13,8 +13,7 @@ def load_payloads():
     if not os.path.exists(JSON_FILE):
         print(f"Error: {JSON_FILE} not found.")
         sys.exit(1)
-    with open(JSON_FILE, "r") as f:
-        return json.load(f)["payloads"]
+    return load_catalog()
 
 def save_payloads(payloads):
     from add_payload import reorder_item

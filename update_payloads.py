@@ -1,4 +1,4 @@
-from catalog import save_catalog
+from catalog import save_catalog, load_catalog
 import json
 import subprocess
 import re
@@ -94,9 +94,8 @@ def reorder_item(item):
 
 def update_readme():
     try:
-        with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)["payloads"]
-    except FileNotFoundError:
+        payloads = load_catalog()
+    except Exception:
         print(f"Error: {JSON_FILE} not found. Cannot update README.")
         return
 
@@ -178,8 +177,7 @@ def cleanup_and_record_stats():
     repo = "ps5-payloads-mirror"
     
     try:
-        with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)["payloads"]
+        payloads = load_catalog()
         expected_files = {p["filename"] for p in payloads if "filename" in p}
         
         cmd = ["gh", "api", f"repos/{owner}/{repo}/releases/tags/payloads-mirror"]
@@ -234,12 +232,10 @@ def cleanup_and_record_stats():
 
 def update_payloads(target_name=None):
     os.makedirs(PAYLOADS_DIR, exist_ok=True)
-    try:
-        with open(JSON_FILE, "r") as f:
-            payloads = json.load(f)["payloads"]
-    except FileNotFoundError:
+    if not os.path.exists(JSON_FILE):
         print(f"Error: {JSON_FILE} not found.")
         return
+    payloads = load_catalog()
 
     mirror_assets = get_mirror_assets()
 

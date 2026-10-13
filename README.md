@@ -39,9 +39,10 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 
 If you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/itsPLK/ps5-payloads-mirror/issues/new).
 
-## Catalog icons
+## Catalog schema & icons
 
-`payloads.json` contains a `payloads` array and `icons_url: "icons.json"`.
+`payloads.json` provides the legacy bare array format for compatibility with older tooling.
+`payloads_v2.json` provides the newer catalog schema containing repository metadata (`name` and `icons_url: "icons.json"`).
 Payloads reference an `icon_key`; `icons.json` maps those keys to base64 PNG,
 JPEG or SVG data URIs under its `icons` object. Keys are content hashes, so
 identical images share one entry. Images stay below 12,288 characters and remain
