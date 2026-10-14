@@ -402,5 +402,9 @@
   "pldmgr_v0.5.2.elf": {
     "download_count": 27610,
     "deleted_at": "2026-10-13"
+  },
+  "pldmgr_v0.6.0.elf": {
+    "download_count": 3897,
+    "deleted_at": "2026-10-14"
   }
 }
