@@ -17,16 +17,29 @@
     },
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v7.1.0.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.0.elf",
+      "filename": "ps5upload_v7.1.4.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.4.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.4/ps5upload-7.1.4.elf",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "last_update": "2026-10-17",
-      "version": "v7.1.0",
+      "last_update": "2026-10-18",
+      "version": "v7.1.4",
       "category": "Networking & Servers",
-      "checksum": "f16a99904f194f96a592cc29206843f3641a46ad7df96fabd4cc9851cd8c1d37",
+      "checksum": "71398d65f2f7cd3d0a35ab16f7aee1f51f0f2d2d5b8ab3a184a62b68805cf775",
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
+    },
+    {
+      "name": "garlic-savemgr",
+      "filename": "garlic-savemgr_v1.14.0.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.14.0.elf",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
+      "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.14.0/garlic-savemgr.elf",
+      "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+      "last_update": "2026-10-18",
+      "version": "v1.14.0",
+      "category": "Utilities & Tools",
+      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
+      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed"
     },
     {
       "name": "ps5-web-file-manager",
@@ -198,19 +211,6 @@
       "category": "Networking & Servers",
       "checksum": "f19ae469b25453a7a4af4529527521d31f143100f18a2c6839666e7121c8bd32",
       "icon_key": "f91480330373f6c7000f747adff3403d77660640911508519852561c3314205a"
-    },
-    {
-      "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.13.1.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.13.1.elf",
-      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
-      "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.13.1/garlic-savemgr.elf",
-      "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
-      "last_update": "2026-09-19",
-      "version": "v1.13.1",
-      "category": "Utilities & Tools",
-      "checksum": "b0fc2fcdda977d2a1207d77148746859b7ea7f3cfcad02828a7a9b49651807f5",
-      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed"
     },
     {
       "name": "ps5-linux-loader",
