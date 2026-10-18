@@ -1,16 +1,29 @@
 [
   {
     "name": "ps5upload",
-    "filename": "ps5upload_v7.0.31.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.0.31.elf",
+    "filename": "ps5upload_v7.1.0.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.0.elf",
     "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.0.31/ps5upload-7.0.31.elf",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.0/ps5upload-7.1.0.elf",
     "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-    "last_update": "2026-10-16",
-    "version": "v7.0.31",
+    "last_update": "2026-10-17",
+    "version": "v7.1.0",
     "category": "Networking & Servers",
-    "checksum": "4ef3b781ae178bbe402a87a64b6f366d3386d6557306db0f51b46b458ffa7e24",
+    "checksum": "f16a99904f194f96a592cc29206843f3641a46ad7df96fabd4cc9851cd8c1d37",
     "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
+  },
+  {
+    "name": "ps5-web-file-manager",
+    "filename": "ps5-web-file-manager_v1.11.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11.elf",
+    "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
+    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.11/web-file-mgr-v1.11.elf",
+    "description": "A file manager for PS5 with a web UI",
+    "last_update": "2026-10-17",
+    "version": "v1.11",
+    "category": "Utilities & Tools",
+    "checksum": "cbcdacf69c331025e1643fc99f5b5fc117125e7c39931b6dd914323412558911",
+    "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
   },
   {
     "name": "onionHEN",
@@ -103,19 +116,6 @@
     "category": "Loaders",
     "checksum": "f662c75a502e4f1bc41b055dcb490625f8222c499ce437dc80f439a3a279e93f",
     "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7"
-  },
-  {
-    "name": "ps5-web-file-manager",
-    "filename": "ps5-web-file-manager_v1.10.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.10.elf",
-    "source": "https://github.com/owendswang/ps5-web-file-manager/releases",
-    "source_direct": "https://github.com/owendswang/ps5-web-file-manager/releases/download/v1.10/web-file-mgr-v1.10.elf",
-    "description": "A file manager for PS5 with a web UI",
-    "last_update": "2026-10-05",
-    "version": "v1.10",
-    "category": "Utilities & Tools",
-    "checksum": "409145ec9a1c338ecb5f6f917c3b057c4ba48bfae2e86d621e19dda7ac129bd3",
-    "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
   },
   {
     "name": "ps5-app-dumper",
