@@ -1,5 +1,18 @@
 [
   {
+    "name": "ps5-exporter",
+    "filename": "ps5-exporter_v0.3.0.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-exporter_v0.3.0.elf",
+    "source": "https://github.com/Marice/ps5-exporter/releases",
+    "source_direct": "https://github.com/Marice/ps5-exporter/releases/download/v0.3.0/ps5-exporter.elf",
+    "description": "Prometheus exporter for a jailbroken PS5",
+    "last_update": "2026-10-18",
+    "version": "v0.3.0",
+    "category": "Utilities & Tools",
+    "checksum": "ef9fa98269ec3a1b94a6ea62256e81ddcc033df13ed8dea2eb4dd04919745147",
+    "icon_key": "6625b3ac7758d58db0a59eb72c12909b0555c05d3fa59630b89fb1448f455c43"
+  },
+  {
     "name": "ps5upload",
     "filename": "ps5upload_v7.1.0.elf",
     "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.0.elf",
