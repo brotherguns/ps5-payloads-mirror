@@ -223,6 +223,19 @@
     "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
   },
   {
+    "name": "ps5-date-time-sync",
+    "filename": "ps5-date-time-sync_v1.0.0.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-date-time-sync_v1.0.0.elf",
+    "source": "https://github.com/kerrdec97/ps5-date-time-sync/releases",
+    "source_direct": "https://github.com/kerrdec97/ps5-date-time-sync/releases/download/v1.0.0/ps5-date-time-sync.elf",
+    "description": "Automatically restores the system date and time using public NTP servers",
+    "last_update": "2026-08-24",
+    "version": "v1.0.0",
+    "category": "Utilities & Tools",
+    "checksum": "91806229803845930b2173174e1afeadf509e4c171f6396788f929558fad6849",
+    "icon_key": "0dd16a96b5d67ffa328df5e08c4ca2ce78c5d5e634975930980193fb7c6174aa"
+  },
+  {
     "name": "ftpsrv",
     "filename": "ftpsrv_v0.21.1.elf",
     "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.21.1.elf",
