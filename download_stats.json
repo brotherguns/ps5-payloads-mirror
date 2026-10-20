@@ -450,5 +450,17 @@
   "pldmgr_v0.6.2.elf": {
     "download_count": 512,
     "deleted_at": "2026-10-19"
+  },
+  "ps5-exporter_v0.3.0.elf": {
+    "download_count": 638,
+    "deleted_at": "2026-10-20"
+  },
+  "ps5-web-file-manager_v1.11.elf": {
+    "download_count": 16968,
+    "deleted_at": "2026-10-20"
+  },
+  "ps5upload_v7.1.8.elf": {
+    "download_count": 4547,
+    "deleted_at": "2026-10-20"
   }
 }
