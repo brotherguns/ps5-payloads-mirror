@@ -7,7 +7,7 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v7.1.9` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-19` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.9.elf) |
+| **ps5upload** | `v7.1.10` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-20` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.10.elf) |
 | **pldmgr** | `v0.6.3` | A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5. | `2026-10-19` | [Source](https://github.com/itsPLK/pldmgr/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.6.3.elf) |
 | **ps5-exporter** | `v0.3.1` | Prometheus exporter for a jailbroken PS5 | `2026-10-19` | [Source](https://github.com/Marice/ps5-exporter/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-exporter_v0.3.1.elf) |
 | **ps5-web-file-manager** | `v1.11b` | A file manager for PS5 with a web UI | `2026-10-19` | [Source](https://github.com/owendswang/ps5-web-file-manager/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.11b.elf) |
