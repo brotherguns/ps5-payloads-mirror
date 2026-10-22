@@ -466,5 +466,21 @@
   "ps5upload_v7.1.9.elf": {
     "download_count": 5505,
     "deleted_at": "2026-10-21"
+  },
+  "elfldr_v0.26.elf": {
+    "download_count": 63809,
+    "deleted_at": "2026-10-22"
+  },
+  "garlic-savemgr_v1.14.0.elf": {
+    "download_count": 6579,
+    "deleted_at": "2026-10-22"
+  },
+  "ps5upload_v7.1.10.elf": {
+    "download_count": 5438,
+    "deleted_at": "2026-10-22"
+  },
+  "ShadowMountPlus_1.7-beta5fix1.elf": {
+    "download_count": 80224,
+    "deleted_at": "2026-10-22"
   }
 }

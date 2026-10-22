@@ -4,16 +4,56 @@
   "payloads": [
     {
       "name": "ps5upload",
-      "filename": "ps5upload_v7.1.10.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.10.elf",
+      "filename": "ps5upload_v7.1.11.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.1.11.elf",
       "source": "https://github.com/phantomptr/ps5upload/releases",
-      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.10/ps5upload-7.1.10.elf",
+      "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v7.1.11/ps5upload-7.1.11.elf",
       "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-      "last_update": "2026-10-20",
-      "version": "v7.1.10",
+      "last_update": "2026-10-21",
+      "version": "v7.1.11",
       "category": "Networking & Servers",
-      "checksum": "0025ee8d5ac9b660e8bc0ee98e42675ddd69b39c58ce71ff5ac0fb97de1a6040",
+      "checksum": "d82120553ab8826f64e1ce3fa3137a51dc28e8ee99711ebbe783d5b86bf7f814",
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
+    },
+    {
+      "name": "garlic-savemgr",
+      "filename": "garlic-savemgr_v1.14.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.14.elf",
+      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
+      "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.14/garlic-savemgr.elf",
+      "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+      "last_update": "2026-10-21",
+      "version": "v1.14",
+      "category": "Utilities & Tools",
+      "checksum": "57763da9d36ae1cb0c744e90a59a06cb54e4eae0c9a8dec62ce774f892c624b9",
+      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed"
+    },
+    {
+      "name": "ShadowMountPlus",
+      "filename": "ShadowMountPlus_1.7beta7.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7beta7.elf",
+      "source": "https://github.com/drakmor/ShadowMountPlus/releases",
+      "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7beta7/ShadowMountPlus_1.7beta7.zip",
+      "extract_file": "shadowmountplus.elf",
+      "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
+      "last_update": "2026-10-21",
+      "version": "1.7beta7",
+      "category": "Utilities & Tools",
+      "checksum": "a8f9d7f76e8749912508ade0cd5c78076b5bbf1271813c78c80c3d3d9d4777ee",
+      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90"
+    },
+    {
+      "name": "elfldr",
+      "filename": "elfldr_v0.27.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.27.elf",
+      "source": "https://github.com/ps5-payload-dev/elfldr/releases",
+      "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.27/elfldr-ps5.elf",
+      "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
+      "last_update": "2026-10-21",
+      "version": "v0.27",
+      "category": "Loaders",
+      "checksum": "82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d",
+      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
     },
     {
       "name": "pldmgr",
@@ -53,19 +93,6 @@
       "category": "Utilities & Tools",
       "checksum": "989f26d292d07a35581a2ee36766fc477fc2f5deedb2a9d0cedae5ee19667eba",
       "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
-    },
-    {
-      "name": "garlic-savemgr",
-      "filename": "garlic-savemgr_v1.14.0.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/garlic-savemgr_v1.14.0.elf",
-      "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
-      "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.14.0/garlic-savemgr.elf",
-      "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
-      "last_update": "2026-10-18",
-      "version": "v1.14.0",
-      "category": "Utilities & Tools",
-      "checksum": "0b96822e3f554666b7fa4ead673c60ef602e5534a9f01a45e94d0580bd6e9edd",
-      "icon_key": "2cc3ca2be798749bb50ba4dc2afcb00a321542352e95087aa89b0e53c9b3e2ed"
     },
     {
       "name": "onionHEN",
@@ -118,20 +145,6 @@
       "category": "Utilities & Tools",
       "checksum": "4ae1ea4e37b2e67d5487355ddf671f166861ed6dceea348c048ad060770c0140",
       "icon_key": "773bbf20ce184cad7fe08134e83220b8bc43079821c8f131df5c5d931a293219"
-    },
-    {
-      "name": "ShadowMountPlus",
-      "filename": "ShadowMountPlus_1.7-beta5fix1.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.7-beta5fix1.elf",
-      "source": "https://github.com/drakmor/ShadowMountPlus/releases",
-      "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.7-beta5fix1/ShadowMountPlus_1.7-beta5fix1.zip",
-      "extract_file": "shadowmountplus.elf",
-      "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
-      "last_update": "2026-10-10",
-      "version": "1.7-beta5fix1",
-      "category": "Utilities & Tools",
-      "checksum": "e85fd63b705498488f39c09c9aea6f9fa22e0df2e932865de49a8cedf25172d5",
-      "icon_key": "2d83b692b57d424d0165cad9be37d9e0abe47a17dca0d7c6b9c05c30c4a0ab90"
     },
     {
       "name": "WebKit-Autoloader-Installer",
@@ -224,19 +237,6 @@
       "category": "Loaders",
       "checksum": "9fc48733077145d1d204a4c9cdb879baaab1e711a604dd73af0dd4a807d6bc49",
       "icon_key": "b3d73d513d62b4d6c880873e46cbea07b977c9bc03295c7e3a31e091fda7a8f7"
-    },
-    {
-      "name": "elfldr",
-      "filename": "elfldr_v0.26.elf",
-      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/elfldr_v0.26.elf",
-      "source": "https://github.com/ps5-payload-dev/elfldr/releases",
-      "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.26/elfldr-ps5.elf",
-      "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
-      "last_update": "2026-08-29",
-      "version": "v0.26",
-      "category": "Loaders",
-      "checksum": "ed6d587a057c09d6a95b2176e336d9ffc605e547ac56462128b029e47b8ccea1",
-      "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
     },
     {
       "name": "ps5-date-time-sync",
