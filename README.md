@@ -7,7 +7,7 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 <!-- PAYLOADS_START -->
 | Payload | Version | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- |
-| **ps5upload** | `v7.5.1` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-24` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.5.1.elf) |
+| **ps5upload** | `v7.5.3` | Fast, reliable transfers from your computer to your PS5 (requires PC app) | `2026-10-25` | [Source](https://github.com/phantomptr/ps5upload/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v7.5.3.elf) |
 | **ps5-dump-forge** | `v0.4.1` | A toolkit for working with PS5 game dumps | `2026-10-24` | [Source](https://github.com/quer3q/ps5-dump-forge/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.4.1.elf) |
 | **LiveShell** | `v1.5.2` | Animated backgrounds for PS5 home screen. | `2026-10-24` | [Source](https://github.com/ZiZc3/LiveShell/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/LiveShell_v1.5.2.elf) |
 | **NeoEnabler** | `v0.5.2` | Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions | `2026-10-24` | [Source](https://github.com/gasb07/NeoEnabler/releases) | [Download](https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.5.2.elf) |
