@@ -16,6 +16,71 @@
       "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
     },
     {
+      "name": "ps5-dump-forge",
+      "filename": "ps5-dump-forge_v0.4.1.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-dump-forge_v0.4.1.elf",
+      "source": "https://github.com/quer3q/ps5-dump-forge/releases",
+      "source_direct": "https://github.com/quer3q/ps5-dump-forge/releases/download/v0.4.1/ps5-dump-forge-0.4.1-ps5.elf",
+      "description": "A toolkit for working with PS5 game dumps",
+      "last_update": "2026-10-24",
+      "version": "v0.4.1",
+      "category": "Utilities & Tools",
+      "checksum": "ea5c47d1500efc8573523d19cebaa8addac9ec51fc62a9c90048daca755f5c96",
+      "icon_key": "5ab5a0df9580b7ed460face021e302fe2c4496183699aeffc891232046288261"
+    },
+    {
+      "name": "LiveShell",
+      "filename": "LiveShell_v1.5.2.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/LiveShell_v1.5.2.elf",
+      "source": "https://github.com/ZiZc3/LiveShell/releases",
+      "source_direct": "https://github.com/ZiZc3/LiveShell/releases/download/v1.5.2/liveshell.elf",
+      "description": "Animated backgrounds for PS5 home screen.",
+      "last_update": "2026-10-24",
+      "version": "v1.5.2",
+      "category": "Utilities & Tools",
+      "checksum": "3c546a3cc85ded2435f822be12f925a284ac25a2aef757c777d6139dad36b624",
+      "icon_key": "4d4df486b46aab47c53d2afe83c17e96d9b6e74edf6cf4d51f9528ae417d1c19"
+    },
+    {
+      "name": "NeoEnabler",
+      "filename": "NeoEnabler_v0.5.2.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.5.2.elf",
+      "source": "https://github.com/gasb07/NeoEnabler/releases",
+      "source_direct": "https://github.com/gasb07/NeoEnabler/releases/download/v0.5.2/neo-manager.elf",
+      "description": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
+      "last_update": "2026-10-24",
+      "version": "v0.5.2",
+      "category": "Utilities & Tools",
+      "checksum": "ea9342b1349ea26b55af4643bdd34308d7880bb09309b632c1dc2c8c95f7be1b",
+      "icon_key": "faacbcbeedaf4e72af5398f611d4d5ff788dfddf8d4080b500492e6cf55cc35d"
+    },
+    {
+      "name": "ps4mount",
+      "filename": "ps4mount_v0.7.0.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps4mount_v0.7.0.elf",
+      "source": "https://github.com/gasb07/ps4mount/releases",
+      "source_direct": "https://github.com/gasb07/ps4mount/releases/download/v0.7.0/ps4mount.elf",
+      "description": "Play PS4 fake PKGs on a jailbroken PS5 straight from a USB drive, without installing them.",
+      "last_update": "2026-10-24",
+      "version": "v0.7.0",
+      "category": "Utilities & Tools",
+      "checksum": "9a99fdeb2be8ebee823b14636e0aac5721386feabcfe97e27dc6d5b3e4158bb7",
+      "icon_key": "de625d7674459fd12f00e334b2f97dcc10eca0667e4b349b67dc5882050889a8"
+    },
+    {
+      "name": "WelcomeHubActivator",
+      "filename": "WelcomeHubActivator_v1.2.0.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/WelcomeHubActivator_v1.2.0.elf",
+      "source": "https://github.com/ghost1372/WelcomeHubActivator/releases",
+      "source_direct": "https://github.com/ghost1372/WelcomeHubActivator/releases/download/v1.2.0/WelcomeHubActivator-v1.2.0.elf",
+      "description": "A PS5 ELF payload that enables the Welcome Hub.",
+      "last_update": "2026-10-23",
+      "version": "v1.2.0",
+      "category": "Utilities & Tools",
+      "checksum": "f989cc412ef782a01f394fe80cf8fc237970884ba90ce4fe4baac165c0b5a2a6",
+      "icon_key": "c056a87a3134ccd14cecb017514c0cfe39d75b66518bd1f22e4309f427ef6d8e"
+    },
+    {
       "name": "ps5-web-file-manager",
       "filename": "ps5-web-file-manager_v1.12.elf",
       "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5-web-file-manager_v1.12.elf",
@@ -26,7 +91,7 @@
       "version": "v1.12",
       "category": "Utilities & Tools",
       "checksum": "f3461eb967da7afbbf0420d3294fbc8f999cc2ad53a756bed413aa80c7cfa67a",
-      "icon_key": "66ffd9e4a0164b333abd978c82c82eaf0c2081b6f17f618a10e3499384f50a97"
+      "icon_key": "913addf010d2f20c451b452813163931b4635f45c3a0606120f15f22df6314dd"
     },
     {
       "name": "garlic-savemgr",
@@ -67,6 +132,19 @@
       "category": "Loaders",
       "checksum": "82f6227610172c98bad6efe68219fc93a10027035991f47eb4b75532d023407d",
       "icon_key": "e26a527c03d4625ec7151301c5b79738ef031bb029d05a7dcded63f488caa7f4"
+    },
+    {
+      "name": "PS5Save",
+      "filename": "PS5Save_v2.elf",
+      "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Save_v2.elf",
+      "source": "https://github.com/heni0xyz/PS5Save/releases",
+      "source_direct": "https://github.com/heni0xyz/PS5Save/releases/download/v2/backup.elf",
+      "description": "USB save backup utility for jailbroken PS5’s",
+      "last_update": "2026-10-21",
+      "version": "v2",
+      "category": "Utilities & Tools",
+      "checksum": "91a7661e1f6708da77fe2bb5a5e4634ff1c531445df65bb1681ef2b21357af4c",
+      "icon_key": "6b0563518b0f643c3123c8cd93b4fb329217b2433c92f75e58b71cf7e90a52e5"
     },
     {
       "name": "pldmgr",
