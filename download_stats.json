@@ -498,5 +498,13 @@
   "ps5upload_v7.1.19.elf": {
     "download_count": 5975,
     "deleted_at": "2026-10-25"
+  },
+  "LiveShell_v1.5.2.elf": {
+    "download_count": 1200,
+    "deleted_at": "2026-10-27"
+  },
+  "ps5upload_v7.5.3.elf": {
+    "download_count": 5519,
+    "deleted_at": "2026-10-27"
   }
 }
