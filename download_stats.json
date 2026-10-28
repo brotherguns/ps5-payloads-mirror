@@ -506,5 +506,25 @@
   "ps5upload_v7.5.3.elf": {
     "download_count": 5519,
     "deleted_at": "2026-10-27"
+  },
+  "NeoEnabler_v0.5.2.elf": {
+    "download_count": 1662,
+    "deleted_at": "2026-10-28"
+  },
+  "ps5-dump-forge_v0.4.1.elf": {
+    "download_count": 1324,
+    "deleted_at": "2026-10-28"
+  },
+  "ps5upload_v8.4.0.elf": {
+    "download_count": 5295,
+    "deleted_at": "2026-10-28"
+  },
+  "ShadowMountPlus_1.7beta7.elf": {
+    "download_count": 48020,
+    "deleted_at": "2026-10-28"
+  },
+  "WebKit-Autoloader-Installer_v0.6.1.elf": {
+    "download_count": 91564,
+    "deleted_at": "2026-10-28"
   }
 }
