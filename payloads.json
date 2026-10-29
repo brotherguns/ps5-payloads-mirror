@@ -1,5 +1,18 @@
 [
   {
+    "name": "ps5upload",
+    "filename": "ps5upload_v8.10.0.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v8.10.0.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v8.10.0/ps5upload-8.10.0.elf",
+    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
+    "last_update": "2026-10-29",
+    "version": "v8.10.0",
+    "category": "Networking & Servers",
+    "checksum": "d863502e034ccb7d632b296305c4cb121b0716619b9cf14b8c6a88c511b6f473",
+    "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
+  },
+  {
     "name": "NeoEnabler",
     "filename": "NeoEnabler_v0.5.3.elf",
     "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/NeoEnabler_v0.5.3.elf",
@@ -24,19 +37,6 @@
     "category": "Loaders",
     "checksum": "27fd335764270716972faea399a5cc7810b9e49a21abf4966d9759580756cb19",
     "icon_key": "cf0638e2449462e5df0467fbebb46f4404b66374650ce0dec4457408252815c7"
-  },
-  {
-    "name": "ps5upload",
-    "filename": "ps5upload_v8.8.0.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/ps5upload_v8.8.0.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v8.8.0/ps5upload-8.8.0.elf",
-    "description": "Fast, reliable transfers from your computer to your PS5 (requires PC app)",
-    "last_update": "2026-10-28",
-    "version": "v8.8.0",
-    "category": "Networking & Servers",
-    "checksum": "71e100106f50d25056b998d0e39cefda1b36ca1f3a2b655ec3a45ccbc15a563f",
-    "icon_key": "8659496467090d2a8b6c7b1a6887702cc15d5b1be3ca05aee99f2b7c382244b0"
   },
   {
     "name": "ShadowMountPlus",
